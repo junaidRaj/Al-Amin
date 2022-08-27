@@ -1,0 +1,131 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+   /* About */
+.About{
+    padding-top: 12px;
+    padding-bottom: 120px;
+}
+.card{
+    border-radius: 30px;
+    box-shadow: 1px 1px 5px rgb(206, 206, 241);
+}
+.card:hover{
+    color:  rgba(255, 132, 0, 0.922);
+    border: 3px solid rgba(255, 132, 0, 0.922);
+}
+.back{
+    background-color: rgba(255, 132, 0, 0.922);
+    padding-top: 100px;
+
+}
+.matric:hover{
+   transform: scale(1.1);
+
+}
+a:hover{
+    color: rgba(255, 132, 0, 0.922) !important;
+}
+.one{
+    color: rgba(255, 132, 0, 0.922);
+}
+                /* Service
+.contain{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.contain .box{
+    position: relative;
+    width: 350px;
+    padding: 40px;
+    background:white;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+    border-radius: 5px;
+    margin: 20px;
+    text-align: center;
+    box-sizing: border-box;
+    overflow: hidden;
+}
+.contain .box::before{
+content: '';
+width: 50%;
+height: 100%;
+position: absolute;
+background: rgba(255, 255, 255, 0.2);
+z-index: 2;
+top: 0;
+left: 0;
+}
+.contain .box .number{
+    position: relative;
+    width: 80px;
+    height: 80px;
+    color: #fff;
+    background:black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+    border-radius: 50%;
+    font-size: 40px;
+    font-weight: 700;
+    transition: 1s;
+}
+.contain .box:nth-child(1) a,
+.contain .box:nth-child(1) .number{
+    background: palevioletred;
+    box-shadow: 0 0 0 0 palevioletred;
+}
+.contain .box:nth-child(1):hover .number{
+box-shadow: 0 0 0 400px palevioletred;
+}
+.contain .box:nth-child(2) a,
+.contain .box:nth-child(2) .number{
+    background: green;
+    box-shadow: 0 0 0 0 green;
+}
+.contain .box:nth-child(2):hover .number{
+box-shadow: 0 0 0 400px green;
+}
+.contain .box:nth-child(3) a,
+.contain .box:nth-child(3) .number{
+    background: rgb(144, 199, 232);
+    box-shadow: 0 0 0 0  rgb(144, 199, 232);
+}
+.contain .box:nth-child(3):hover .number{
+box-shadow: 0 0 0 400px  rgb(144, 199, 232);
+}
+.contain .box .content{
+    position: relative;
+    transition: 0.5s;
+}
+.contain .box:hover .content{
+    color: white;
+}
+.contain .box:hover .content a{
+    color: white;
+}
+.contain .box:hover .number{
+    background: white;
+    color: black;
+}
+var name = document.getElementById("name");
+    var roll = document.getElementById("roll");
+    student = {
+        name: name.value,
+        roll: roll.value,
+    }
+    console.log(student);
+a{
+    display: inline-block;
+    margin-top: 20px;
+    padding: 10px 20px;
+    text-decoration: none;
+    color: black;
+    border-radius: 5px;
+    font-weight: 500;
+    transition: 0.5s;
+} */

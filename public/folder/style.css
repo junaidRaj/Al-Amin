@@ -1,0 +1,309 @@
+/* STORE */
+* {
+    margin: 0;
+    padding: 0;
+}
+
+#Nevber{
+    color: black !important;
+    margin: 5px 15px;
+}
+
+#Nevber:hover {
+    padding: 5px;
+    color: red !important;
+    border-bottom: 2px solid red;
+}
+
+#font {
+    color: black;
+    font-size: 25px;
+}
+
+#font:hover {
+     color: red !important;
+    border-bottom: 2px solid red;
+    cursor: pointer;
+}
+
+.store h1 {
+    color: black;
+    text-align: center;
+    margin: 15px;
+    font-weight: bold;
+}
+
+.store h3 {
+    color: black;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.product {
+    color: black;
+    margin: 15px 5px;
+}
+
+.proBtn {
+    background: black !important;
+    border: 2px solid black;
+    border-radius: 5px;
+    text-decoration: none;
+    color: #fff;
+    padding: 5px;
+    margin: 10px;
+}
+
+.proBtn:hover {
+    background: transparent !important;
+    border: 2px solid black;
+    border-radius: 5px;
+    color: black;
+    letter-spacing: 2px;
+}
+
+.home .texT button:hover {
+    background: transparent !important;
+    border: 2px solid black;
+    border-radius: 5px;
+    font-weight: bold;
+    color: black;
+    letter-spacing: 2px;
+}
+
+.heed {
+    color: black;
+    text-align: center;
+    margin: 20px;
+    font-weight: bold;
+}
+
+.home {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: url(images/imag.1);
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 100vh;
+}
+
+.home .texT {
+    text-align: center;
+    overflow: hidden;
+}
+
+.home .texT h1 {
+    font-size: 50px;
+    font-weight: 700;
+    color: black !important;
+}
+
+.home .texT p {
+    font-size: 15px;
+    color: black !important;
+}
+
+.home .texT button {
+    background: black !important;
+    border: 2px solid black;
+    border-radius: 5px;
+    color: #fff;
+    padding: 5px;
+    margin: 10px;
+}
+
+/* Service */
+.contain {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.contain .box {
+    position: relative;
+    width: 350px;
+    padding: 40px;
+    background: white;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+    border-radius: 5px;
+    margin: 20px;
+    text-align: center;
+    box-sizing: border-box;
+    overflow: hidden;
+}
+
+.contain .box::before {
+    content: '';
+    width: 50%;
+    height: 100%;
+    position: absolute;
+    background: rgba(255, 255, 255, 0.2);
+    z-index: 2;
+    top: 0;
+    left: 0;
+}
+
+.contain .box .number {
+    position: relative;
+    width: 80px;
+    height: 80px;
+    color: #fff;
+    background: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+    border-radius: 50%;
+    font-size: 40px;
+    font-weight: 700;
+    transition: 1s;
+}
+
+.contain .box:nth-child(1) a,
+.contain .box:nth-child(1) .number {
+    background: palevioletred;
+    box-shadow: 0 0 0 0 palevioletred;
+}
+
+.contain .box:nth-child(1):hover .number {
+    box-shadow: 0 0 0 400px palevioletred;
+}
+
+.contain .box:nth-child(2) a,
+.contain .box:nth-child(2) .number {
+    background: green;
+    box-shadow: 0 0 0 0 green;
+}
+
+.contain .box:nth-child(2):hover .number {
+    box-shadow: 0 0 0 400px green;
+}
+
+.contain .box:nth-child(3) a,
+.contain .box:nth-child(3) .number {
+    background: rgb(144, 199, 232);
+    box-shadow: 0 0 0 0 rgb(144, 199, 232);
+}
+
+.contain .box:nth-child(3):hover .number {
+    box-shadow: 0 0 0 400px rgb(144, 199, 232);
+}
+
+.contain .box .content {
+    position: relative;
+    transition: 0.5s;
+}
+
+.contain .box:hover .content {
+    color: white;
+}
+
+.contain .box:hover .content a {
+    color: white;
+}
+
+.contain .box:hover .number {
+    background: white;
+    color: black;
+}
+
+a {
+    display: inline-block;
+    margin-top: 20px;
+    padding: 10px 20px;
+    text-decoration: none;
+    color: black;
+    border-radius: 5px;
+    font-weight: 500;
+    transition: 0.5s;
+}
+
+q {
+    color: red;
+}
+
+/* footer */
+.ipuut {
+    border: none;
+    border-bottom: 2px solid black !important;
+}
+
+.bttn {
+    background: black !important;
+    border: 2px solid black;
+    border-radius: 5px;
+    text-decoration: none;
+    color: #fff;
+    padding: 5px;
+    margin: 10px;
+}
+
+.anker {
+    text-decoration: none;
+    color: black !important;
+    margin: 1px;
+}
+
+.anker:hover {
+    color: rgb(56, 190, 252) !important;
+}
+
+.font #face {
+    color: rgb(67, 67, 249) !important;
+}
+
+.font #wats {
+    color: rgb(30, 255, 0) !important;
+}
+
+.font #insta {
+    color: rgb(233, 73, 105) !important;
+}
+
+.font #face:hover {
+    color: black !important;
+    font-size: xx-large;
+}
+
+.font #wats:hover {
+    color: black !important;
+    font-size: xx-large;
+}
+
+.font #insta:hover {
+    color: black !important;
+    font-size: xx-large;
+}
+
+.color {
+    color: black !important;
+    font-weight: bold;
+}
+.inppt{
+    margin-top:30px;
+    background: transparent;
+    outline: none;
+    border: transparent;
+    border-bottom:2px solid black;
+    border-radius: 3px;
+}
+.bton{
+    margin:30px 5px;
+    background: lightgrey;
+    padding: 5px;
+    outline: none;
+    color: #fff;
+    border: transparent;
+    border-radius: 3px;
+}
+.btan{
+    margin-left :50px;
+    background: rgb(0, 106, 255);
+    padding: 5px;
+    outline: none;
+    color: #fff;
+    border: transparent;
+    border-radius: 3px;
+}
